@@ -1,0 +1,28 @@
+version: '2.0'
+stories:
+- story: greet
+  steps:
+    - user: |
+        hello there!
+      intent: greet
+    - action: utter_greet
+- story: greet + chitchat
+  steps:
+    - user: |
+        sain u
+      intent: greet
+    - action: utter_greet
+    - user: |
+        amidral dajgu yu
+      intent: chitchat
+    - action: utter_chitchat
+- story: greet + faq
+  steps:
+    - user: |
+        sain u
+      intent: greet
+    - action: utter_greet
+    - user: |
+        irheer n belen munguur tulj boloh u
+      intent: faq
+    - action: utter_faq

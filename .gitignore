@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Exclude
+.env.leave
+
+models/*
+results/
+train_test_split/*
+events.db*
+rasa.db*

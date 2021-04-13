@@ -1,0 +1,13 @@
+version: '2.0'
+nlu:
+- intent: faq/return_policy
+  examples: |
+    - Baraa butsaah bolomjtoi yu
+    - baraa butsah nuhtsul n yah bile
+    - hed honogin dotor butsaaj boloh be
+    - taalagdahgu bol butsaaj boloh u
+- intent: faq/pay_via_cash
+  examples: |
+    - belen mungur tulj boloh u
+    - hurgej irher n tuluh bolomjtoi yu
+    - zuer zahialchad irheer n tulj boloh u

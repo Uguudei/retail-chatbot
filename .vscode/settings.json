@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "venv/bin/python",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "files.autoSave": "afterDelay",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--skip-string-normalization"
+    ],
+    "editor.formatOnSave": true,
+    "files.watcherExclude": {
+        "**/venv": true
+    }
+}
