@@ -25,12 +25,8 @@ pipeline:
     threshold: 0.3
     ambiguity_threshold: 0.1
   - name: "DucklingHTTPExtractor"
-    # url of the running duckling server
     url: "http://localhost:8008"
-    # dimensions to extract
     dimensions: ["email", "duration", "creditcardnumber"]
-    # allows you to configure the locale, by default the language is
-    # used
     locale: "MN"
     # if not set the default timezone of Duckling is going to be used
     # needed to calculate dates from relative expressions like "tomorrow"
@@ -42,7 +38,7 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-  # - name: MemoizationPolicy
+  - name: MemoizationPolicy
   - name: TEDPolicy
     max_history: 5
     epochs: 100
