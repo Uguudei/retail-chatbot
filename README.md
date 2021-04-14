@@ -9,6 +9,13 @@ pip install rasa
 pip install --use-deprecated=legacy-resolver rasa-x --extra-index-url https://pypi.rasa.com/simple --upgrade
 ```
 
+## Rasa shell
+```shell
+rasa shell
+# --debug option shows intent, action and policies chosen
+rasa shell --debug
+```
+
 ## Start rasa-x
 ```shell
 rasa x --rasa-x-port 5003 --port 5006
