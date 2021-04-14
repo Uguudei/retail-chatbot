@@ -12,5 +12,8 @@
     "editor.formatOnSave": true,
     "files.watcherExclude": {
         "**/venv": true
-    }
+    },
+    "liveServer.settings.ignoreFiles": [
+        "**"
+    ]
 }
