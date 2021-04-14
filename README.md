@@ -14,6 +14,11 @@ pip install --use-deprecated=legacy-resolver rasa-x --extra-index-url https://py
 rasa x --rasa-x-port 5003 --port 5006
 ```
 
+## Rasa visualize stories and generate graph
+```shell
+rasa visualize
+```
+
 ## Rasa training
 ```shell
 rasa data split nlu --training-fraction=0.1
