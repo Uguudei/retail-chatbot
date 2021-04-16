@@ -441,6 +441,7 @@ nlu:
     - that does not help
 - intent: deny
   examples: |
+    - аан дараа больё ажилтай
     - uguie
     - yahin be
     - heregguie
