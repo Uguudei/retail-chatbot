@@ -15,5 +15,9 @@
     },
     "liveServer.settings.ignoreFiles": [
         "**"
-    ]
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.~sql": true
+    }
 }
