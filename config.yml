@@ -24,16 +24,16 @@ pipeline:
   - name: FallbackClassifier
     threshold: 0.3
     ambiguity_threshold: 0.1
-  - name: "DucklingHTTPExtractor"
-    url: "http://localhost:8008"
-    dimensions: ["email", "duration", "creditcardnumber"]
-    locale: "MN"
-    # if not set the default timezone of Duckling is going to be used
-    # needed to calculate dates from relative expressions like "tomorrow"
-    timezone: "Asia/Ulaanbaatar"
-    # Timeout for receiving response from http url of the running duckling server
-    # if not set the default timeout of duckling http url is set to 3 seconds.
-    timeout: 3
+  # - name: "DucklingHTTPExtractor"
+  #   url: "http://localhost:8008"
+  #   dimensions: ["email", "duration", "creditcardnumber"]
+  #   locale: "MN"
+  #   # if not set the default timezone of Duckling is going to be used
+  #   # needed to calculate dates from relative expressions like "tomorrow"
+  #   timezone: "Asia/Ulaanbaatar"
+  #   # Timeout for receiving response from http url of the running duckling server
+  #   # if not set the default timeout of duckling http url is set to 3 seconds.
+  #   timeout: 3
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

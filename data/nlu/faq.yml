@@ -6,6 +6,7 @@ nlu:
     - baraa butsah nuhtsul n yah bile
     - hed honogin dotor butsaaj boloh be
     - taalagdahgu bol butsaaj boloh u
+
 - intent: faq/pay_via_cash
   examples: |
     - belen mungur tulj boloh u
