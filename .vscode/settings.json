@@ -1,7 +1,6 @@
 {
     "python.pythonPath": "venv/bin/python",
     "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
     "files.trimTrailingWhitespace": true,
     "workbench.editor.highlightModifiedTabs": true,
     "files.autoSave": "afterDelay",
@@ -21,5 +20,10 @@
         "**/*.~sql": true,
         "**/.ipynb_checkpoints": true,
         "**/venv": true
+    },
+    "terminal.integrated.env.linux": {
+        "TF_FORCE_GPU_ALLOW_GROWTH": "true",
+        "RASA_X_PASSWORD": "dunno",
+        "RANDOM_SEED": "1"
     }
 }
