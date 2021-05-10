@@ -1,0 +1,16 @@
+version: "2.0"
+responses:
+  utter_greet:
+    - text: Hey! How are you?
+  utter_bye:
+    - text: Bye
+  utter_did_that_help:
+    - text: Did that help you?
+  utter_chitchat/ask_weather:
+    - text: Weather is very nice today!
+  utter_chitchat/ask_howdoing:
+    - text: I am doing just fine
+  utter_faq/pay_via_cash:
+    - text: Sorry you can't pay via cash. You need to pay via online first to proceed the order.
+  utter_faq/return_policy:
+    - text: You can return any product within 3 days after receiving the order.

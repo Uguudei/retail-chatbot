@@ -1,58 +1,31 @@
-version: '2.0'
+version: "2.0"
 config:
   store_entities_as_slots: true
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- chitchat:
-    use_entities: true
-- faq:
-    use_entities: true
-- affirm:
-    use_entities: true
-- greet:
-    use_entities: true
-- bye:
-    use_entities: true
-- canthelp:
-    use_entities: true
-- deny:
-    use_entities: true
-- explain:
-    use_entities: true
-- next_step:
-    use_entities: true
-- thank:
-    use_entities: true
-- need_help_broad:
-    use_entities: true
-- react_positive:
-    use_entities: true
-- react_negative:
-    use_entities: true
-- human_handoff:
-    use_entities: true
+  - chitchat
+  - faq
+  - affirm
+  - greet
+  - bye
+  - canthelp
+  - deny
+  - explain
+  - next_step
+  - thank
+  - need_help_broad
+  - react_positive
+  - react_negative
+  - human_handoff
 entities:
-- email
-- color
-- creditcardnumber
+  - email
+  - color
+  - creditcardnumber
 slots: {}
-responses:
-  utter_greet:
-  - text: Hey! How are you?
-  utter_bye:
-  - text: Bye
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_chitchat/ask_weather:
-  - text: Weather is very nice today!
-  utter_chitchat/ask_howdoing:
-  - text: I am doing just fine
-  utter_faq/pay_via_cash:
-  - text: Sorry you can't pay via cash. You need to pay via online first to proceed the order.
-  utter_faq/return_policy:
-  - text: You can return any product within 3 days after receiving the order.
-actions: []
+responses: {}
+actions:
+  - action_chitchat
 forms: {}
 e2e_actions: []

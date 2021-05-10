@@ -1,137 +1,137 @@
-version: '2.0'
+version: "2.0"
 nlu:
-- intent: affirm
-  examples: |
-    - tegi
-    - tegye
-    - tegyee
-    - aanhaa
-    - aanhaa tegye
-    - avii
-    - zuvshurch bn
-    - zuvshuurch bain
-    - aanha tegye
-    - tegi tegi
-    - za tegi
-    - tegido
+  - intent: affirm
+    examples: |
+      - tegi
+      - tegye
+      - tegyee
+      - aanhaa
+      - aanhaa tegye
+      - avii
+      - zuvshurch bn
+      - zuvshuurch bain
+      - aanha tegye
+      - tegi tegi
+      - za tegi
+      - tegido
 
-- intent: greet
-  examples: |
-    - sain u
-    - yu bn
-    - sain bain u
-    - sain bn u
-    - Bom dia
-    - hello
-    - hi
-- intent: bye
-  examples: |
-    - bayartai
-    - babye
-    - baka
-    - bayartai sain suuj bgarai
-    - bye amjilt
-    - Bye
-    - Bye bye
-- intent: canthelp
-  examples: |
-    - I think you cant help me
-    - and that's it?
-    - and you call yourself bot company? pff
-    - do you get anything?
-    - exit
-    - exit now
-- intent: deny
-  examples: |
-    - аан дараа больё ажилтай
-    - uguie
-    - yahin be
-    - heregguie
-    - uguie bayarlalaa
-    - ugui
-    - heregguie bayarlala
-    - yahin yahin
-    - yahin zuer
-    - yahin zugeer
-    - I don't want to
-    - I don't want to give it to you
-    - I don't want to say
-    - I dont want to tell
-    - I'm not giving you my email address
-    - I'm not going to give it to you
-    - Nah
-    - Neither
-    - Never
-    - Nevermind
-    - No
-    - nope
-- intent: explain
-  examples: |
-    - delgerengui tailbarlad uguch
-    - nemelt tailbar heregtei bn
-    - oilgosonguie tailbarluuli
-    - can you elaborate
-    - could you explain why you need that
-    - could you tell me more
-    - explain it to me
-    - explain that
-    - i want more information
-    - i would like to know why you need that
-    - please elaborate
-    - please explain
-    - why do you need to know that
-    - why is that necessary
-    - give me more details
-    - why
-    - what do you mean
-    - what does that mean
-    - how come?
-- intent: next_step
-  examples: |
-    - daragin alham yu be
-    - dara n yah be
-    - tsaasha yah u
-    - nex
-- intent: thank
-  examples: |
-    - bayarlalaa
-    - баярлалаа
-    - Cool. Thanks
-    - Great, thanks
-    - Thank you
-    - Thank you so much
-    - Thank's!
-    - Thanks
-- intent: need_help_broad
-  examples: |
-    - nadad asuult bn
-    - tuslamj heregtei bn
-    - neg asuult bnaa
-    - need help on chatbot
-    - I have a question
-    - I have a question for you
-    - I have a question.
-    - hello I have a question
-    - I have a question?
-    - Sure. I have a question for you
-    - Yes, I have a question
-    - yes, I have a question
-    - I have a few questions
-- intent: react_positive
-  examples: |
-    - goy bot bnaa
-    - lag hariuldagin bn
-    - barag yaria hih n xolgui sain bnaa
-    - sain hiije
-    - yanztai
-    - Cool
-    - cool
-- intent: react_negative
-  examples: |
-    - yamar hogiin bot be
-    - yamar mia yum be
-    - suga yum be
-    - pizda be chi
-    - lalaraa shiideche
-    - enige saijrulache
-    - sucks
+  - intent: greet
+    examples: |
+      - sain u
+      - yu bn
+      - sain bain u
+      - sain bn u
+      - Bom dia
+      - hello
+      - hi
+  - intent: bye
+    examples: |
+      - bayartai
+      - babye
+      - baka
+      - bayartai sain suuj bgarai
+      - bye amjilt
+      - Bye
+      - Bye bye
+  - intent: canthelp
+    examples: |
+      - I think you cant help me
+      - and that's it?
+      - and you call yourself bot company? pff
+      - do you get anything?
+      - exit
+      - exit now
+  - intent: deny
+    examples: |
+      - аан дараа больё ажилтай
+      - uguie
+      - yahin be
+      - heregguie
+      - uguie bayarlalaa
+      - ugui
+      - heregguie bayarlala
+      - yahin yahin
+      - yahin zuer
+      - yahin zugeer
+      - I don't want to
+      - I don't want to give it to you
+      - I don't want to say
+      - I dont want to tell
+      - I'm not giving you my email address
+      - I'm not going to give it to you
+      - Nah
+      - Neither
+      - Never
+      - Nevermind
+      - No
+      - nope
+  - intent: explain
+    examples: |
+      - delgerengui tailbarlad uguch
+      - nemelt tailbar heregtei bn
+      - oilgosonguie tailbarluuli
+      - can you elaborate
+      - could you explain why you need that
+      - could you tell me more
+      - explain it to me
+      - explain that
+      - i want more information
+      - i would like to know why you need that
+      - please elaborate
+      - please explain
+      - why do you need to know that
+      - why is that necessary
+      - give me more details
+      - why
+      - what do you mean
+      - what does that mean
+      - how come?
+  - intent: next_step
+    examples: |
+      - daragin alham yu be
+      - dara n yah be
+      - tsaasha yah u
+      - nex
+  - intent: thank
+    examples: |
+      - bayarlalaa
+      - баярлалаа
+      - Cool. Thanks
+      - Great, thanks
+      - Thank you
+      - Thank you so much
+      - Thank's!
+      - Thanks
+  - intent: need_help_broad
+    examples: |
+      - nadad asuult bn
+      - tuslamj heregtei bn
+      - neg asuult bnaa
+      - need help on chatbot
+      - I have a question
+      - I have a question for you
+      - I have a question.
+      - hello I have a question
+      - I have a question?
+      - Sure. I have a question for you
+      - Yes, I have a question
+      - yes, I have a question
+      - I have a few questions
+  - intent: react_positive
+    examples: |
+      - goy bot bnaa
+      - lag hariuldagin bn
+      - barag yaria hih n xolgui sain bnaa
+      - sain hiije
+      - yanztai
+      - Cool
+      - cool
+  - intent: react_negative
+    examples: |
+      - yamar hogiin bot be
+      - yamar mia yum be
+      - suga yum be
+      - pizda be chi
+      - lalaraa shiideche
+      - enige saijrulache
+      - sucks

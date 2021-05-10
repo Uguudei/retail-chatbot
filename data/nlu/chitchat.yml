@@ -1,18 +1,18 @@
-version: '2.0'
+version: "2.0"
 nlu:
-- intent: chitchat/ask_howdoing
-  examples: |
-    - amidral her bn da
-    - chamar sonin saihan yum bn
-    - sonin yu bn
-    - amidral dajgu yu
-    - How are you
-    - how r you doing
-    - who is your life
+  - intent: chitchat/ask_howdoing
+    examples: |
+      - amidral her bn da
+      - chamar sonin saihan yum bn
+      - sonin yu bn
+      - amidral dajgu yu
+      - How are you
+      - how r you doing
+      - who is your life
 
-- intent: chitchat/ask_weather
-  examples: |
-    - tsag agaar her bn da
-    - gadaa her bn
-    - How is weather today?
-    - what does weather look like today
+  - intent: chitchat/ask_weather
+    examples: |
+      - tsag agaar her bn da
+      - gadaa her bn
+      - How is weather today?
+      - what does weather look like today
