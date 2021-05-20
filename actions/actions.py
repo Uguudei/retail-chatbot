@@ -1,12 +1,15 @@
+import json
 from typing import Any, Dict, List, Text
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.types import DomainDict
 
-from actions import config
-from pprint import pprint
-import json
+# from actions import config
+
+
+def hello_world(var):
+    return var
 
 
 class ActionChitChat(Action):

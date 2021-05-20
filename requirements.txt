@@ -1,3 +1,2 @@
 rasa==2.4.3
 rasa-x==0.38.1
-python-dotenv

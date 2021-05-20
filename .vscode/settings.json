@@ -25,5 +25,8 @@
         "TF_FORCE_GPU_ALLOW_GROWTH": "true",
         "RASA_X_PASSWORD": "dunno",
         "RANDOM_SEED": "1"
-    }
+    },
+    "jupyter.jupyterServerType": "local",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }
